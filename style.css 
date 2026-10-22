@@ -37,3 +37,29 @@ ul {
 li {
     margin: 8px 0;
 }
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 8px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+li {
+    color: #38bdf8;
+}
+
+ul {
+    margin-bottom: 20px;
+}
