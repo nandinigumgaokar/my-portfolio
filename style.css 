@@ -63,3 +63,16 @@ li {
 ul {
     margin-bottom: 20px;
 }
+/* Portfolio sections */
+body {
+    border-top: 4px solid #38bdf8;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
