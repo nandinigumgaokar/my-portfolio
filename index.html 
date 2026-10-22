@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <h1>Hello, I'm Nandini!</h1>
+    <h2>Welcome to My Portfolio</h2>
+    <p>I am an MCA student and aspiring web developer.</p>
+
+    <h2>About Me</h2>
+    <p>I am learning HTML, CSS and JavaScript to build professional websites.</p>
+
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+</body>
+</html>
