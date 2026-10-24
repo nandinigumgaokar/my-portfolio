@@ -6,6 +6,7 @@
 }
 
 body {
+background-color: #f4f0ff;
   font-family: Arial, sans-serif;
   background: #f4f0ff;
   color: #29213d;
