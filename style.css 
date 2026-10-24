@@ -1,78 +1,43 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0f172a;
-    color: white;
-    padding: 30px;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background: #f4f0ff;
+  color: #29213d;
+  line-height: 1.7;
+  padding: 25px;
 }
 
 h1 {
-    color: #38bdf8;
-    font-size: 36px;
-    margin-bottom: 10px;
+  color: #6c3fc5;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    color: #7dd3fc;
-    margin-top: 25px;
-    margin-bottom: 10px;
+  color: #6c3fc5;
+  margin-top: 28px;
+  margin-bottom: 10px;
 }
 
-p {
-    font-size: 17px;
-    color: #cbd5e1;
-}
-
-ul {
-    padding-left: 25px;
-}
-
-li {
-    margin: 8px 0;
-}
-body {
-    max-width: 900px;
-    margin: auto;
-}
-
-h1 {
-    text-align: center;
-    padding: 20px 0;
-}
-
-h2 {
-    border-bottom: 2px solid #38bdf8;
-    padding-bottom: 8px;
-}
-
-p {
-    line-height: 1.8;
-}
-
-li {
-    color: #38bdf8;
+p, li {
+  font-size: 17px;
 }
 
 ul {
-    margin-bottom: 20px;
-}
-/* Portfolio sections */
-body {
-    border-top: 4px solid #38bdf8;
+  padding-left: 25px;
 }
 
-a {
-    color: #38bdf8;
-    text-decoration: none;
+p {
+  margin-bottom: 12px;
 }
 
-a:hover {
-    text-decoration: underline;
+body > h1:first-child {
+  border-bottom: 3px solid #b69af0;
+  padding-bottom: 12px;
 }
