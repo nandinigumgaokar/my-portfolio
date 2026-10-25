@@ -1,28 +1,253 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandini | My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }body {
+  font-family: Arial, sans-serif;
+  background: #0f1020;
+  color: #f5f5ff;
+  line-height: 1.7;
+}
+
+header {
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #17182d;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: #a78bfa;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 14px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #a78bfa;
+}
+
+.hero {
+  min-height: 85vh;
+  padding: 80px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: radial-gradient(circle at top right, #39266b, #0f1020 60%);
+}
+
+.tag {
+  color: #c4b5fd;
+  background: #252044;
+  padding: 7px 15px;
+  border-radius: 25px;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-size: clamp(38px, 8vw, 64px);
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #a78bfa;
+}
+
+.hero p {
+  max-width: 550px;
+  color: #c5c5d8;
+  margin-bottom: 28px;
+}
+
+.btn {
+  display: inline-block;
+  background: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  padding: 12px 23px;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #7042dc;
+}
+
+section {
+  padding: 65px 8%;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.section-title span {
+  color: #a78bfa;
+}
+
+.about-text {
+  color: #c5c5d8;
+  max-width: 700px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #191a30;
+  border: 1px solid #30314c;
+  border-radius: 15px;
+  padding: 24px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #8b5cf6;
+}
+
+.card h3 {
+  color: #c4b5fd;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #c5c5d8;
+}
+
+.skill {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  background: #252044;
+  color: #ddd6fe;
+}
+
+.contact {
+  text-align: center;
+  background: #17182d;
+}
+
+.contact p {
+  color: #c5c5d8;
+  margin-bottom: 22px;
+}
+
+footer {
+  padding: 22px;
+  text-align: center;
+  color: #aaaac2;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 15px 5%;
+  }
+
+  nav a {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+
+  .logo {
+    font-size: 19px;
+  }
+
+  .hero {
+    min-height: 75vh;
+    padding: 65px 7%;
+  }
+
+  section {
+    padding: 50px 7%;
+  }
+}
+
+  </style>
 </head>
-<body>
-    <h1>Hello, I'm Nandini!</h1>
-    <h2>Welcome to My Portfolio</h2>
-    <p>I am an MCA student and aspiring web developer.</p>
-
-    <h2>About Me</h2>
-    <p>I am learning HTML, CSS and JavaScript to build professional websites.</p>
-
-    <h2>My Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
-</body>
+<body>  <header>
+    <div class="logo">Nandini.</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>  <section class="hero">
+    <div class="tag">✨ Welcome to my portfolio</div>
+    <h1>Hello, I'm <span class="highlight">Nandini!</span></h1>
+    <h2>Aspiring Web Developer 💻</h2>
+    <p>
+      I'm an MCA student passionate about technology,
+      creative design, and building beautiful websites.
+      Welcome to my little corner of the internet!
+    </p>
+    <a class="btn" href="#projects">Explore My Work ↓</a>
+  </section>  <section id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <p class="about-text">
+      Hi! I'm Nandini, an MCA student learning web development.
+      I enjoy exploring HTML, CSS, and JavaScript and turning
+      ideas into attractive, user-friendly websites.
+      I'm excited to learn new things and grow as a developer.
+    </p>
+  </section>  <section id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div>
+      <span class="skill">🌐 HTML</span>
+      <span class="skill">🎨 CSS</span>
+      <span class="skill">⚡ JavaScript</span>
+      <span class="skill">📱 Responsive Design</span>
+      <span class="skill">💡 Problem Solving</span>
+    </div>
+  </section>  <section id="projects">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🌟 Personal Portfolio</h3>
+        <p>
+          My first portfolio website, created using HTML and CSS
+          to introduce myself and showcase my learning journey.
+        </p>
+      </div>
+      <div class="card">
+        <h3>🚀 Future Project</h3>
+        <p>
+          I'm learning new skills and working towards building
+          more exciting web development projects.
+        </p>
+      </div>
+    </div>
+  </section>  <section id="contact" class="contact">
+    <h2 class="section-title">Let's <span>Connect!</span></h2>
+    <p>Thank you for visiting my portfolio. More projects coming soon!</p>
+    <a class="btn" href="#about">Know More About Me ↑</a>
+  </section>  <footer>
+    © 2026 Nandini | Made with 💜 and passion
+  </footer></body>
 </html>
